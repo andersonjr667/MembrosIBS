@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "usuario": "admin",
+        "senha": "1234"
+    },
+    {
+        "id": 2,
+        "usuario": "secretaria",
+        "senha": "igreja2025"
+    }
+]

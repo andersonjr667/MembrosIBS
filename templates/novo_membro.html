@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8"><title>Novo Membro</title></head>
+<body>
+  <h2>Novo Membro</h2>
+  <form method="POST">
+    {% for campo in campos %}
+    <label>{{campo}}:</label><input type="text" name="{{campo}}"><br>
+    {% endfor %}
+    <button type="submit">Salvar</button>
+  </form>
+</body></html>

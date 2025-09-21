@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><meta charset="UTF-8"><title>Membros</title></head>
+<body>
+  <h2>Lista de Membros</h2>
+  <table border="1">
+    <tr>{% for c in membros[0].keys() %}<th>{{c}}</th>{% endfor %}</tr>
+    {% for m in membros %}
+    <tr>{% for v in m.values() %}<td>{{v}}</td>{% endfor %}</tr>
+    {% endfor %}
+  </table>
+</body></html>
